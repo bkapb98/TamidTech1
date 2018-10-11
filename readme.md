@@ -13,6 +13,16 @@ We will build a simple webpage based on the Twitter API:
 
 
 ### Keys:
-You can use my api keys if you have trouble making a developer account. 
+You can use my api keys if you have trouble making a developer account 
+
 API Key: MBS7XpueaGlqKQgZNHtuOJG96
 Secret Key: sB97B8DjEthrzoY10sQKGsqNlMJA196E1DHwiHp7TIdQFnv8Pv
+
+#### Helpful Link:
+1. https://nodejs.org/en/docs/ 
+2. https://caolan.github.io/async/
+3. https://expressjs.com/ 
+4. https://lodash.com/ 
+5. https://developer.mozilla.org/en-US/docs/Web/JavaScript
+6. http://youmightnotneedjquery.com/ 
+7. https://developers.google.com/web/tools/chrome-devtools/
