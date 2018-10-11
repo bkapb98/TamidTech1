@@ -7,11 +7,12 @@ const app = express();
 const host = '127.0.0.1';
 const port = 8000;
 app.set('view engine', 'ejs');
+app.use(express.static(__dirname))
 app.set('views', path.join(__dirname, 'views'));
 
 app.get('/', (req, res) => {
-    // to do 
-    console.log('To do');
+    // to do still 
+    res.render('index', {Tweets: [{name: 'Ben', text: 'text', date: '07/03/18', other: 'More Info link'}]});
 });
 
 app.listen(port, host, () => {

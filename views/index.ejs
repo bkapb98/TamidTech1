@@ -1,0 +1,23 @@
+<%- include('header') %>
+
+<h1 class="header">Tweets </h1>
+
+
+<table class="table table-striped">
+  <tr>
+    <th> Name </th>
+    <th> Text </td>
+    <th> Date </td>
+    <th> More Tweets </td>
+  </tr>
+  <% Tweets.forEach(tweet => { %>
+    <tr>
+      <td> <%- tweet.name %></td>
+      <td> <%- tweet.text %> </td>
+      <td> <%- tweet.date %> </td>
+      <td> <%- tweet.other %> </td>
+    </tr>
+  <% }); %>
+</table>
+
+<%- include('footer') %>
